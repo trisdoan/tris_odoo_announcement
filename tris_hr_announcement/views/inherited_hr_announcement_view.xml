@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="view_inherited_hr_announcement_tree" model="ir.ui.view">
+            <field name="name">hr.announcement.inherited.tree</field>
+            <field name="model">hr.announcement</field>
+            <field name="inherit_id" ref="hr_reward_warning.view_hr_announcement_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//tree" position="inside">
+                    <field name="read_by_users" invisible="1"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend" name="tris_hr_announcement assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/tris_hr_announcement/static/src/js/extend_ListController.js"/>
+            <script type="text/javascript" src="/tris_hr_announcement/static/src/js/extend_ListRender.js"/>
+
+        </xpath>
+    </template>
+</odoo>
